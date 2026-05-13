@@ -147,4 +147,4 @@ print(sentence[0:10])
 print(sentence[::-1])
 print(len(sentence))
 print(sentence[16:19])
-#updatedsentence = "the quick brown fox jumps over the lazy dog"
+#updatedsentence = "the quick brown fox jumps over the lazy dog
