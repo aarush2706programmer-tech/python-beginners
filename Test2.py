@@ -112,3 +112,21 @@ for i in num:
         print("This is odd")
 print(min(num))
 print(max(num))
+
+total = 0
+for i in range(1, 6):
+    total = total + i
+print("Total:", total)
+
+def add_ten(n):
+    result = n + 10
+    return result
+
+answer = add_ten(5)
+print("Answer:", answer)
+
+scores = {"Aryan": 88, "Priya": 92, "Dev": 74}
+
+for name,score in scores.items():
+    print(name, "scored", score)
+
