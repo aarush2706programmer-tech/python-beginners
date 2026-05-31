@@ -151,7 +151,33 @@ def has_duplicate(lst):
             if lst[i] == lst[j]:
                 return True
     return False
+#This is O(nsquare)
 
+def find_duplicates(lst):
+    seen = set()
+    duplicates = set()
+    
+    for item in lst:
+        if item in seen:
+            duplicates.add(item)
+        else:
+            seen.add(item)
+    
+    return list(duplicates)
+
+# Example
+nums = [1, 2, 3, 2, 4, 3, 5]
+print(find_duplicates(nums))  # [2, 3]
+
+"""Q10 
+True
+True
+False
+
+Q16
+True
+True
+True"""
 
 
 
